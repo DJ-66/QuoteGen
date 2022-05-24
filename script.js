@@ -27,7 +27,7 @@ function newQuote() {
 const quote = localQuotes[Math.floor(Math.random() * localQuotes.length)];
 // check if Author field is blank and replace it with 'Anonymous'
 if (!quote.author) {
-    authorText.textContent = 'Anonymous';
+    authorText.textContent = 'GT Wilson';
 } else {
     authorText.textContent = quote.author;
 
